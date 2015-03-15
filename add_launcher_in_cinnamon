@@ -1,0 +1,28 @@
+# Open your terminal and type:
+vim /home/user/myvm.sh
+
+# type the following inside"
+
+#! /bin/sh
+VirtualBox
+
+# Save the file in your home directory and change the permissions with:
+chmod 775 /home/user/myvm.sh
+# Then you can create a desktop file, in the terminal type:
+cd /user/share/applications
+sudo vim myvm.deskop
+
+# Add the following information:
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=My VM
+GenericName=Launch my VM
+Type=Application
+Exec=sh /home/user/myvm.sh
+Icon=/path/to/your/icon.png
+Categories=System;
+
+# Save the changes and make suer the .desktop has the right permissions in the terminal type
+sudo chmod 644 /usr/share/applications/myvm.desktop
+
