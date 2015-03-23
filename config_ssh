@@ -1,0 +1,16 @@
+# ~/.ssh/config
+
+Host project.db1
+  HostName db1.project.com
+    User webadmin
+
+  Host project.util1
+    HostName util1.project.com
+    User webadmin
+
+  Host project.stage
+    HostName stage.project.com
+    User webadmin
+
+# to run first: ssh project.db1
+# that's all
