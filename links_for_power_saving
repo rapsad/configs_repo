@@ -1,2 +1,4 @@
 Simple power saving - https://wiki.archlinux.org/index.php/Power_saving
 Laptop mode tools - https://wiki.archlinux.org/index.php/Laptop_Mode_Tools
+Resolve issue with stop charging - https://wiki.archlinux.org/index.php/Tp-battery-mode
+systemctl enable tp-battery-mode
